@@ -1,0 +1,767 @@
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+    color: #000;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#topo {
+    font-family: 'Lato';
+    font-weight: bold;
+    width: 100%;
+    height: 25px;
+    background-color: #fff;
+}
+
+#sociais_topo {
+    position: relative;
+    margin-left: 5%;
+}
+
+#sociais_topo img {
+    float: left;
+    margin-left: 15px;
+}
+
+#facetopo {
+    margin-top: 4px;
+}
+
+#telefone {
+    position: relative;
+    float: left;
+    margin-left: 40%;
+    margin-top: 8px;
+}
+
+#whats {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+    margin-top: 8px;
+}
+
+#icones {
+    margin-right: 5%;
+}
+
+#icones img {
+    float: right;
+    margin-right: 50px;
+}
+
+#menu {
+    position: relative;
+    clear: left;
+    width: 100%;
+    height: 90px;
+    background-color: #000;
+}
+
+#menu img {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    margin-left: 3%;
+}
+
+#menu_superior {
+    position: relative;
+    float: left;
+    width: 80%;
+    color: #fff;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 30px;
+}
+
+#menu_superior a {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+    margin-top: 35px;
+}
+
+#menu_superior a:hover {
+    color: #EEB44C;
+    border-bottom: #EEB44C solid 3px;
+    transition: 0.5s border;
+}
+
+#menu_superior p:hover {
+    color: #EEB44C;
+    border-bottom: #EEB44C solid 3px;
+    transition: 0.5s border;
+}
+
+#vestuario {
+    position: relative;
+    float: left;
+    margin-left: 60%;
+    margin-top: 35px;
+}
+
+#categorias {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+    margin-top: 35px;
+}
+
+#menu_vestuario {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    clear: left;
+    background-color: #f9f9f9;
+    visibility: hidden;
+    z-index: 2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #dbdbdb solid 2px;
+}
+
+#menu_vestuario p {
+    position: relative;
+    color: #000;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 25px;
+    font-style: italic;
+    margin: auto;
+}
+
+#menu_vestuario img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+#camisetas_vestuario {
+    position: relative;
+    float: left;
+    margin-left: 45%;
+}
+
+#moletons_vestuario {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+}
+
+#calcas_vestuario {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+}
+
+#menu_categorias {
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    clear: left;
+    background-color: #f9f9f9;
+    visibility: hidden;
+    z-index: 2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #dbdbdb solid 2px;
+}
+
+#menu_categorias p {
+    position: relative;
+    color: #000;
+    font-family: 'Yanone Kaffeesatz';
+    font-size: 25px;
+    font-style: italic;
+    margin: auto;
+}
+
+#menu_categorias img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+#mulher_categorias {
+    position: relative;
+    float: left;
+    margin-left: 70%;
+}
+
+#homem_categorias {
+    position: relative;
+    float: left;
+    margin-left: 5%;
+}
+
+#fundo {
+    position: relative;
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: #fff;
+}
+
+#fundo_menu_lateral {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+#menu_lateral {
+    position: relative;
+    width: 20%;
+    height: auto;
+    background-color: #fff;
+    color: #000;
+    margin-top: 5%;
+}
+
+#menu_lateral a {
+    width: 55%;
+    background-color: #fff;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 10px;
+    height: 20px;
+    display: block;
+    text-decoration: none;
+    color: #c3c3c3;
+    font-weight: bold;
+    font-size: 18px;
+    border-bottom: 2px solid #bbb;
+    padding: 5px;
+}
+
+#menu_lateral a:hover {
+    color: #EEB44C;
+    border-bottom: #EEB44C solid 3px;
+    transition: 0.5s border;
+}
+
+.titulo {
+    position: relative;
+    text-align: center;
+    margin-top: 5%;
+    font-size: 60px;
+}
+
+.efeitoimg:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+p img:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+#fundo_tela {
+    position: relative;
+    float: right;
+    width: 80%;
+    height: auto;
+    background-color: #fff;
+}
+
+#nike1 {
+    position: relative;
+    float: left;
+    margin: 0%;
+    text-align: left;
+}
+
+.nike1 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+}
+
+#nike1 article h1 {
+    font-family: 'Reem Kufi';
+    font-size: 35px;
+}
+
+#nike1 article div {
+    position: relative;
+    margin-right: 40px;
+    margin-top: 80px;
+    position: relative;
+    top: 0
+}
+
+#nike1 article div:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+#nike1 article h4 {
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+button {
+    margin-top: 22px;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #EEB44C;
+    box-shadow: 0px 15px 20px #ccc;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+button:active {
+    transform: translateY(-1px);
+}
+
+#nike2 {
+    position: relative;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    text-align: left;
+}
+
+.nike2 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+}
+
+#nike2 article h1 {
+    font-family: 'Reem Kufi';
+    margin-top: 200px;
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+#nike2 article div {
+    position: relative;
+    margin-right: 40px;
+    margin-top: 80px;
+    position: relative;
+    top: 0
+}
+
+#nike2 article div:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+#nike2 article h4 {
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+#nike3 {
+    position: relative;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    text-align: left;
+}
+
+.nike3 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+}
+
+#nike3 article h1 {
+    font-family: 'Reem Kufi';
+    margin-top: 200px;
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+#nike3 article div {
+    position: relative;
+    margin-left: 120px;
+    margin-top: 80px;
+    position: relative;
+    top: 0
+}
+
+#nike3 article div:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+#nike3 article h4 {
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+#adidas1 {
+    position: relative;
+    float: left;
+    margin: 0%;
+    text-align: left;
+}
+
+.adidas1 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+}
+
+#adidas1 article h1 {
+    font-family: 'Reem Kufi';
+    font-size: 35px;
+}
+
+#adidas1 article div {
+    position: relative;
+    margin-right: 40px;
+    margin-top: 80px;
+    position: relative;
+    top: 0
+}
+
+#adidas1 article div:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+#adidas1 article h4 {
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+#adidas2 {
+    position: relative;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    text-align: left;
+}
+
+.adidas2 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+}
+
+#adidas2 article h1 {
+    font-family: 'Reem Kufi';
+    margin-top: 200px;
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+#adidas2 article div {
+    position: relative;
+    margin-right: 40px;
+    margin-top: 80px;
+    position: relative;
+    top: 0
+}
+
+#adidas2 article div:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+#adidas2 article h4 {
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+#adidas3 {
+    position: relative;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    text-align: left;
+}
+
+.adidas3 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+}
+
+#adidas3 article h1 {
+    font-family: 'Reem Kufi';
+    margin-top: 200px;
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+#adidas3 article div {
+    position: relative;
+    margin-left: 120px;
+    margin-top: 80px;
+    position: relative;
+    top: 0
+}
+
+#adidas3 article div:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+#adidas3 article h4 {
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+#puma1 {
+    position: relative;
+    float: left;
+    margin: 0%;
+    text-align: left;
+}
+
+.puma1 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+}
+
+#puma1 article h1 {
+    font-family: 'Reem Kufi';
+    font-size: 35px;
+}
+
+#puma1 article div {
+    position: relative;
+    margin-right: 40px;
+    margin-top: 80px;
+    position: relative;
+    top: 0
+}
+
+#puma1 article div:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+#puma1 article h4 {
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+#puma2 {
+    position: relative;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    text-align: left;
+}
+
+.puma2 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+}
+
+#puma2 article h1 {
+    font-family: 'Reem Kufi';
+    margin-top: 200px;
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+#puma2 article div {
+    position: relative;
+    margin-right: 40px;
+    margin-top: 80px;
+    position: relative;
+    top: 0
+}
+
+#puma2 article div:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+#puma2 article h4 {
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+#puma3 {
+    position: relative;
+    float: left;
+    margin-top: 5%;
+    margin-bottom: 0%;
+    text-align: left;
+}
+
+.puma3 {
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: #000;
+}
+
+#puma3 article h1 {
+    font-family: 'Reem Kufi';
+    margin-top: 200px;
+    font-size: 35px;
+    margin-left: 40px;
+}
+
+#puma3 article div {
+    position: relative;
+    margin-left: 120px;
+    margin-top: 80px;
+    position: relative;
+    top: 0
+}
+
+#puma3 article div:hover {
+    top: -4px;
+    box-shadow: 0 4px 4px #999;
+    transition: all .2s ease-in-out
+}
+
+#puma3 article h4 {
+    font-family: 'Lato';
+    font-size: 25px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    background-color: #000;
+    width: 100%;
+    height: 700px;
+    top: 100px;
+}
+
+#quem_somos h1 {
+    font-family: 'Reem Kufi';
+    font-size: 30px;
+}
+
+#logo_rodape {
+    position: absolute;
+    z-index: 2;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#quem_somos {
+    margin-top: 170px;
+    margin-left: 50px;
+    text-align: left;
+    font-family: 'Lato';
+    position: absolute;
+    width: 20%;
+    z-index: 2;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+}
+
+#conteudo {
+    margin-top: 170px;
+    margin-left: 700px;
+    text-align: left;
+    font-family: 'Lato';
+    position: absolute;
+    width: 20%;
+    z-index: 2;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+}
+
+#conteudo h1 {
+    font-family: 'Reem Kufi';
+    font-size: 30px;
+}
+
+#categorias2 {
+    margin-top: 160px;
+    margin-left: 1300px;
+    text-align: left;
+    font-family: 'Lato';
+    position: absolute;
+    width: 10%;
+    z-index: 2;
+    color: #fff;
+    font-size: 20px;
+    float: left;
+}
+
+#categorias2 h1 {
+    font-family: 'Reem Kufi';
+    font-size: 30px;
+}
+
+#f img {
+    position: absolute;
+    z-index: 2;
+    float: left;
+    margin-top: 14px;
+    margin-left: 640px;
+}
+
+#i img {
+    position: absolute;
+    z-index: 2;
+    float: left;
+    margin-top: 1px;
+    margin-left: 560px;
+}
+
+#p:hover {
+    color: #EEB44C;
+}

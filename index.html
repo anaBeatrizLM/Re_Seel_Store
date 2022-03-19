@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <script src="index.js" type="text/javascript"> </script>
+    <link rel="icon" href="imagens/icone_casa.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Yanone+Kaffeesatz:wght@300;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@600&display=swap" rel="stylesheet">
+    
+</head>
+
+<body link="black" vlink="black">
+    <main>
+        <header id="topo">
+            <p id="sociais_topo"><a href="https://www.instagram.com" target="_blank"><img class="efeitoimg" src="imagens/insta_topo.png"></a><a href="https://pt-br.facebook.com"target="_blank"><img id="facetopo" class="efeitoimg" src="imagens/face_topo.png"></a></p>
+            <p id="telefone">Fone: (11) 2737-4260</p>
+            <p id="whats">WhatsApp: (11) 94127-7881</p>
+            <p id="icones"><a href="carrinho.html"><img class="efeitoimg" src="imagens/sacola.png"></a><a href="login.html"><img class="efeitoimg" src="imagens/minha_conta_img.png"></a></p>
+        </header>
+        <header id="menu">
+            <a href="index.html"><img src="imagens/logo2.png"></a>
+            <nav>
+                <p id="vestuario" onmouseover="show_vestuario()">vestuário</p>
+                <a href="calcados.html" onmouseover="hide_vestuario()" onmousemove="hide_categorias()">calçados</a>
+                <p id="categorias" onmouseover="show_categorias()">categorias</p>
+            </nav>
+        </header>
+        <div id="menu_categorias" onmouseleave="hide_categorias()">
+            <a href="feminino.html" id="mulher_categorias">
+                <p>Feminino</p>
+                <img src="imagens/mulher.png"></a>
+            <a href="masculino.html" id="homem_categorias">
+                <p>Masculino</p>
+                <img src="imagens\homens.png"></a>
+        </div>
+        <div id="menu_vestuario" onmouseleave="hide_vestuario()">
+            <a href="camisetas.html" id="camisetas_vestuario">
+                <p>Camisetas</p>
+                <img src="imagens/camiseta_nike_mas_2.png"></a>
+            <a href="moletons.html" id="moletons_vestuario">
+                <p>Moletons & Jaquetas</p>
+                <img src="imagens/jaqueta_adidas_mas_3.png"></a>
+            <a href="calcas.html" id="calcas_vestuario">
+                <p>Calças</p>
+                <img src="imagens/calca_adidas_fem_1.png"></a>
+        </div>
+        
+        
+        <div class="container">
+            
+                <section class="galery">
+
+                    <div class="fotos">
+                        <a href="off_white.html"><img src="imagens/banner_principal_nike.png" alt="Foto 1"></a>
+                        <a href="adidas.html"><img src="imagens/banner_principal_adidas.png" alt="Foto 2"></a>
+                        <a href="suede.html"><img src="imagens/banner_principal_puma.png" alt="Foto 3"></a>
+                    </div>
+                    
+                </section>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                   
+                    <section id="retangulo">
+                       <div style="float:left"><a href="adidas.html"> <img class="efeitoimg" src="imagens/retangulo_adidas.png"></a></div>
+                       <div style="float:left"><a href="nike.html"><img class="efeitoimg" src="imagens/retangulo_nike.png"></a></div>
+                       <div style="float:left"><a href="puma.html"><img class="efeitoimg" src="imagens/retangulo_puma.png"></a></div>
+
+                    </section>
+                    <section id="retangulo2">
+                        <div style="float:left"><a href="feminino.html"><img class="efeitoimg" src="imagens/mulheres_texto.png"></a></div>
+                        <div style="float:left"><a href="masculino.html"><img class="efeitoimg" src="imagens/homens_texto.png"></a></div>
+ 
+                     </section>
+
+                     <section id="Promocoes">
+                         <br>
+                         <article>
+                        <h1> Promoções especiais</h1>
+                        <div style="float:left"> <img class="efeitoimg" src="imagens/tenis_promocao_1.png">
+                            <h4><p>Tênis Nike Downshifter 11</p>
+                                <p> Feminino</p></h4>
+                                <br>
+                                <h4>R$ 249,99</h4>
+                                <h6>R$ 299,99</h6> 
+                            <button type="submit">Comprar</button>                        </div>
+                             <div style="float:left"> <img class="efeitoimg" src="imagens/tenis_promocao_2.png">
+                                <h4><p>Tênis Top Ten RB Feminino</p></h4>
+                                    <br>
+                                    <br>
+                                    <h4>R$ 499,99 </h4>
+                                    <h6>R$ 599,99</h6>
+                                    <button  type="submit">Comprar</button>
+                                </div>
+
+                             <div style="float:left"> <img class="efeitoimg"src="imagens/tenis_promocao_3.png">
+                                <h4><p>Tênis Puma Cali Feminino</p></h4>
+                                    <br>
+                                    <br>
+                                    <h4>R$ 499,90 </h4>
+                                    <h6>R$ 580,90</h6>
+                                    <button type="submit">Comprar</button></div>
+                             <div style="float:left"> <img class="efeitoimg" src="imagens/tenis_promocao_4.png">
+                                <h4><p>Tênis Puma Cali Feminino</p></h4>
+                                    <br>
+                                    <br>
+                                    <h4>R$ 399,90 </h4>
+                                    <h6>R$ 499,90</h6>
+                                <button type="submit">Comprar</button></div>
+                         </article>
+                        </ssection>
+                            <section id="Promocoes2">
+                                <article>
+                            <div style="float:left"> <img class="efeitoimg"src="imagens/roupa_promocao_1.png">
+                                <h4><p>Regata Cavada Essentials</p>
+                                    <p> Feminino</p></h4>
+                                    <br>
+                                    <h4>R$ 99,90</h4>
+                                    <h6>R$ 119,90</h6> 
+                                <button type="submit">Comprar</button>                        </div>
+                                 <div style="float:left"> <img class="efeitoimg"src="imagens/roupa_promocao_2.png">
+                                    <h4><p>Camiseta Nike Dri-FIT Ekiden</p><p>Masculina</p></h4>
+                                        <br>
+                                        <h4>R$ 109,99 </h4>
+                                        <h6>R$ 189,99</h6>
+                                        <button type="submit">Comprar</button>
+                                    </div>
+    
+                                 <div style="float:left"> <img class="efeitoimg"src="imagens/roupa_promocao_3.png">
+                                    <h4><p>Calça Adicolor Classics </p> <p>Primeblue SST-Masculina</p></h4>
+                                        <br>
+                                        <h4>R$ 299,99 </h4>
+                                        <h6>R$ 319,99</h6>
+                                        <button type="submit">Comprar</button></div>
+                                 <div style="float:left"> <img class="efeitoimg"src="imagens/roupa_promocao_4.png">
+                                    <h4><p>Jaqueta Corta-Vento</p> <p>Feminina</p></h4>
+                                        <br>
+                                        <h4>R$ 349,99 </h4>
+                                        <h6>R$ 399,99</h6>
+                                    <button type="submit">Comprar</button></div>
+                                </div>
+                                </article>
+                                </section>
+
+                                <section id="Lancamentos">
+                                    <br>
+                                    <article>
+                                   <h2> Lançamentos - 2022 </h2>
+                                   <div style="float:left"> <img class="efeitoimg"src="imagens/lancamento_tenis_1.png">
+                                       <h4><p>Women´s Air Jordan 6</p>
+                                           <p> Mint Foam</p></h4>
+                                           <br>
+                                           <h4>R$ 1.499,99</h4>
+                                       <button type="submit">Comprar</button>                        </div>
+                                        <div style="float:left"> <img class="efeitoimg"src="imagens/lancamento_tenis_2.png">
+                                           <h4><p>Puma x Liberty Tênis</p>
+                                            <p> Mayze Feminino
+                                            </p></h4>
+                                               <br>
+                                               <h4>R$ 699,90 </h4>
+                                               <button type="submit">Comprar</button>
+                                           </div>
+           
+                                        <div style="float:left"> <img class="efeitoimg" class="efeitoimg" src="imagens/lancamento_tenis_3.png">
+                                           <h4><p>Tênis Basquete Dame 8 </p>
+                                            <p>Masculino</p></h4>
+                                               <br>
+                                               <h4>R$ 899,99 </h4>
+                                               <button type="submit">Comprar</button></div>
+                                        <div style="float:left"> <img class="efeitoimg" src="imagens/lancamento_tenis_4.png">
+                                           <h4><p>Air Jordan 1 High OG-</p>
+                                            <p>University Gold</p></h4>
+                                               <br>
+                                               <h4>R$ 1299,90</h4>
+                                           <button type="submit">Comprar</button></div>
+                                       </article>
+                                       </section>
+                                       <section id="Lancamentos2">
+                                           <article>
+                                       <div style="float:left"> <img class="efeitoimg" src="imagens/lancamento_roupa_1.png">
+                                           <h4><p>Camiseta Manga Curta</p>
+                                               <p> NRG-Masculina</p></h4>
+                                               <br>
+                                               <h4>R$ 249,99</h4> 
+                                           <button type="submit">Comprar</button>                        </div>
+                                            <div style="float:left"> <img class="efeitoimg"src="imagens/lancamento_roupa_2.png">
+                                               <h4><p>Jaqueta Adicolor </p>Colorblock-Feminina<p></h4>
+                                                   <br>
+                                                   <h4>R$ 449,99 </h4>
+                                                   <button type="submit">Comprar</button>
+                                               </div>
+               
+                                            <div style="float:left"> <img class="efeitoimg" src="imagens/lancamento_roupa_3.png">
+                                               <h4><p>Puma x Liberty Jaqueta </p> <p>Short-Feminina
+                                            </p></h4>
+                                                   <br>
+                                                   <h4>R$ 899,90 </h4>
+                                                   <button type="submit">Comprar</button></div>
+                                            <div style="float:left"> <img class="efeitoimg" src="imagens/lancamento_roupa_4.png">
+                                               <h4><p>Puma x Batman </p> <p>Moletom-Masculino</p>
+                                                   <br>
+                                                   <h4>R$ 599,90</h4>
+                                               <button type="submit">Comprar</button></div>
+                                           </div>
+                                           </article>
+                                           </section>
+                                           <div id="banner_linha">
+                                               <img src="imagens/banner_linhas.png">
+                                        </div>              
+                <div id="newsletter">
+                </div>
+
+                <section id="newsletter_texto">
+                    <h1>Assine a nossa newsletter</h1>
+                    <br>
+                    <p>e receba todas as novidades da loja em seu e-mail!</p>
+                    <br>
+                    <form id="email"> Seu e-mail
+                        <input type="text">
+                        <button id="nw" type="submit">Enviar</button>
+                    </form>
+                </section>
+                <footer>
+                    <div id="logo_rodape">
+                        <a href="#topo"><img src="imagens/logo2.png"></a></div>
+                        <div id="f">
+                            <a href="https://pt-br.facebook.com"target="_blank"><img src="imagens/logo_face_rodape.png"></a></div>
+                            <div id="i">
+                            <a href="https://www.instagram.com"target="_blank"><img src="imagens/logo_insta_rodape.png"></a>
+                        </div>
+                        <div id="quem_somos">
+                            <h1>Quem somos?</h1>
+                            <br>
+                            <p>A Re-Sell Store nasceu a partir do desejo de cinco programadores - Ana Beatriz, Cintya, João Paulo, Letícia e Pedro Victor-de criar uma loja que visa oferecer aos clientes uma plataforma segura de revenda de marcas populares com promoções e edições que se esgotariam rapidamente em outras plataformas. Aqui, acreditamos que dar uma experiência inovadora aos nossos clientes é indispensável. Nossa missão é ser a maior loja de revendas de marcas do Brasil e buscamos transformar a conexão entre as pessoas e o mercado virtual, sendo um ponto de credibilidade e confiança.</p>
+                        </div>
+                        <div id="conteudo">
+                            <h1>Conteúdo</h1>
+                            <br>
+                            <a href="politica_privacidade.html"><p id="p"> Política de privacidade</p></a>
+                            <br>
+                            <a href="trocas_devolucoes.html"><p id="p">Política de trocas e devoluções</p></a>
+                        </div>
+                        <div id="categorias2">
+                            <h1>Categorias</h1>
+                            <br>
+                            <a href="camisetas.html"><p id="p">CAMISETAS</p></a>
+                            <br>
+                            <a href="moletons.html"><p id="p">MOLETONS E JAQUETAS</p></a>
+                            <br>
+                            <a href="calcas.html"><p id="p">CALÇAS</p></a>
+                            <br>
+                            <a href="calcados.html"><p id="p">CALÇADOS</p></a>
+                            <br>
+                            <a href="feminino.html"><p id="p">FEMININO</p></a>
+                            <br>
+                            <a href="masculino.html"><p id="p">MASCULINO</p></a>
+                            <br>
+                            <a href="adidas.html"><p id="p">ADIDAS</p></a>
+                            <br>
+                            <a href="nike.html"><p id="p">NIKE</p></a>
+                            <br>
+                            <a href="puma.html"><p id="p">PUMA</p></a>
+                            </div>
+                            
+    
+                        
+                   
+
+                </footer>
+           
+    
+               
+    
+
+              
+            
+        
+    </main>
+</body>
+
+</html>

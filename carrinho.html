@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha sacola</title>
+    <link rel="stylesheet" href="carrinho.css" type="text/css">
+    <script src="carrinho.js" type="text/javascript"> </script>
+    <link rel="icon" href="imagens/sacola.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Yanone+Kaffeesatz:wght@300;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@600&display=swap" rel="stylesheet">
+    
+</head>
+
+<body link="black" vlink="black">
+    <main>
+        <header id="topo">
+            <p id="sociais_topo"><a href="https://www.instagram.com" target="_blank"><img class="efeitoimg" src="imagens/insta_topo.png"></a><a href="https://pt-br.facebook.com"target="_blank"><img id="facetopo" class="efeitoimg" src="imagens/face_topo.png"></a></p>
+            <p id="telefone">Fone: (11) 2737-4260</p>
+            <p id="whats">WhatsApp: (11) 94127-7881</p>
+            <p id="icones"><a href="carrinho.html"><img class="efeitoimg" src="imagens/sacola.png"></a><a href="login.html"><img class="efeitoimg" src="imagens/minha_conta_img.png"></p>
+        </header>
+        <header id="menu">
+            <a href="index.html"><img src="imagens/logo2.png"></a>
+            <nav>
+                <p id="vestuario" onmouseover="show_vestuario()">vestuário</p>
+                <a href="calcados.html" onmouseover="hide_vestuario()" onmousemove="hide_categorias()">calçados</a>
+                <p id="categorias" onmouseover="show_categorias()">categorias</p>
+            </nav>
+        </header>
+        <div id="menu_categorias" onmouseleave="hide_categorias()">
+            <a href="feminino.html" id="mulher_categorias">
+                <p>Feminino</p>
+                <img src="imagens/mulher.png"></a>
+            <a href="masculino.html" id="homem_categorias">
+                <p>Masculino</p>
+                <img src="imagens\homens.png"></a>
+        </div>
+        <div id="menu_vestuario" onmouseleave="hide_vestuario()">
+            <a href="camisetas.html" id="camisetas_vestuario">
+                <p>Camisetas</p>
+                <img src="imagens/camiseta_nike_mas_2.png"></a>
+            <a href="moletons.html" id="moletons_vestuario">
+                <p>Moletons & Jaquetas</p>
+                <img src="imagens/jaqueta_adidas_mas_3.png"></a>
+            <a href="calcas.html" id="calcas_vestuario">
+                <p>Calças</p>
+                <img src="imagens/calca_adidas_fem_1.png"></a>
+        </div>
+        <section id="titulo">
+            <div id="geral">
+            <h1>SUA SACOLA ESTÁ VAZIA</h1>
+            <br>
+            <p>Navegue pelas categorias da loja ou faça uma busca pelo seu produto.</p>
+           <a href="index.html"> <button>
+                Continuar comprando
+            </button></a>
+            </div>
+
+        </section>
+</main>
+</body>
+</html>

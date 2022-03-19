@@ -550,5 +550,7 @@ footer{
     margin-top: 1px;
   margin-left: 560px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
   
